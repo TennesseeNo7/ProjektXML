@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="model">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:minLength value="3"/>
+                <xsd:maxLength value="15"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="producent">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:minLength value="3"/>
+                <xsd:maxLength value="40"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="rdzenie">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:integer">
+                <xsd:minInclusive value="1"/>
+                <xsd:maxInclusive value="16"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+
+
+    <xsd:attribute name="idProduktu">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:pattern value="[a-z]{2,}[0-9]+"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:attribute>
+
+    <xsd:attribute name="przeznaczenie">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="PC"/>
+                <xsd:enumeration value="Laptop"/>
+                <xsd:enumeration value="Mobile"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:attribute>
+
+    <xsd:attribute name="jednostka">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="Hz"/>
+                <xsd:enumeration value="MHz"/>
+                <xsd:enumeration value="KHz"/>
+                <xsd:enumeration value="GHz"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:attribute>
+
+    <xsd:attribute name="waluta">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="PLN"/>
+                <xsd:enumeration value="EUR"/>
+                <xsd:enumeration value="USD"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:attribute>
+
+    <xsd:attribute name="jednostkaPam">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="kb"/>
+                <xsd:enumeration value="MB"/>
+                <xsd:enumeration value="GB"/>
+                <xsd:enumeration value="TB"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:attribute>
+
+
+
+    <xsd:element name="sklep">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="produkty" minOccurs="1" maxOccurs="1"/>
+            </xsd:sequence>
+        </xsd:complexType>
+        <xsd:key name="product-key">
+            <xsd:selector xpath="./produkty/procesory/procesor | ./produkty/ramy/ram | ./produkty/romy/rom"/>
+            <xsd:field xpath="./@idProduktu"/>
+        </xsd:key>
+    </xsd:element>
+
+    <xsd:element name="produkty">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="procesory" minOccurs="1" maxOccurs="1"/>
+                <xsd:element ref="ramy" minOccurs="1" maxOccurs="1"/>
+                <xsd:element ref="romy" minOccurs="1" maxOccurs="1"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="procesory">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="procesor" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="ramy">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="ram" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="romy">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="rom" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="procesor">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="model" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="producent" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="dane" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="cena" minOccurs="0" maxOccurs="1"/>
+            </xsd:sequence>
+            <xsd:attribute ref="idProduktu" use="required"/>
+            <xsd:attribute ref="przeznaczenie" use="required" />
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="ram">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="model" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="producent" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="dane" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="cena" minOccurs="0" maxOccurs="1"/>
+            </xsd:sequence>
+            <xsd:attribute ref="idProduktu" use="required"/>
+            <xsd:attribute ref="przeznaczenie" use="required" />
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="rom">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="model" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="producent" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="dane" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="cena" minOccurs="0" maxOccurs="1"/>
+            </xsd:sequence>
+            <xsd:attribute ref="idProduktu" use="required"/>
+            <xsd:attribute ref="przeznaczenie" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="dane">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="czestotliwosc" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="rdzenie" minOccurs="0" maxOccurs="1"/>
+                <xsd:element ref="pamiec" minOccurs="0" maxOccurs="1"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="cena">
+        <xsd:complexType>
+            <xsd:simpleContent>
+                <xsd:extension base="xsd:decimal">
+                    <xsd:attribute name="waluta" type="xsd:string" />
+                </xsd:extension>
+            </xsd:simpleContent>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="czestotliwosc">
+        <xsd:complexType>
+            <xsd:simpleContent>
+                <xsd:extension base="xsd:string">
+                    <xsd:attribute name="jednostka" type="xsd:string" />
+                </xsd:extension>
+            </xsd:simpleContent>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="pamiec">
+        <xsd:complexType>
+            <xsd:simpleContent>
+                <xsd:extension base="xsd:integer">
+                    <xsd:attribute name="jednostkaPam" type="xsd:string" />
+                </xsd:extension>
+            </xsd:simpleContent>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

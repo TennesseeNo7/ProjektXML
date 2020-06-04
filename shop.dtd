@@ -1,0 +1,34 @@
+<!ELEMENT sklep (produkty)>
+        <!ELEMENT produkty (procesory, ramy, romy)>
+
+        <!ELEMENT procesory (procesor+)>
+
+        <!ELEMENT ramy (ram+)>
+
+        <!ELEMENT romy (rom+)>
+
+        <!ELEMENT procesor (model, producent, dane, cena)>
+        <!ATTLIST procesor idProduktu ID #REQUIRED>
+        <!ATTLIST procesor przeznaczenie CDATA #REQUIRED>
+
+        <!ELEMENT ram (model, producent, dane, cena)>
+        <!ATTLIST ram idProduktu ID #REQUIRED>
+        <!ATTLIST ram przeznaczenie CDATA #REQUIRED>
+
+        <!ELEMENT rom (model, producent, dane, cena)>
+        <!ATTLIST rom idProduktu ID #REQUIRED>
+        <!ATTLIST rom przeznaczenie CDATA #REQUIRED>
+
+        <!ELEMENT dane (czestotliwosc?, rdzenie?, pamiec?)>
+
+        <!ELEMENT czestotliwosc (#PCDATA)>
+        <!ATTLIST czestotliwosc jednostka CDATA #REQUIRED>
+        <!ELEMENT rdzenie (#PCDATA)>
+        <!ELEMENT format (#PCDATA)>
+
+        <!ELEMENT pamiec (#PCDATA)>
+        <!ATTLIST pamiec jednostkaPam CDATA #REQUIRED>
+        <!ELEMENT cena (#PCDATA)>
+        <!ATTLIST cena waluta CDATA #REQUIRED>
+        <!ELEMENT producent (#PCDATA)>
+        <!ELEMENT model (#PCDATA)>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sklep>
+
+    <produkty>
+
+        <procesory>
+            <procesor idProduktu="?" przeznaczenie="?">
+                <model>Radeon M3K0 v</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <rdzenie>?</rdzenie>
+                </dane>
+                <cena waluta="?">?</cena>
+            </procesor>
+
+            <procesor idProduktu="?" przeznaczenie="?">
+                <model>Radeon M3K0 n</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <rdzenie>?</rdzenie>
+                </dane>
+                <cena waluta="?">?</cena>
+            </procesor>
+
+            <procesor idProduktu="?" przeznaczenie="?">
+                <model>Radeon M12 y6</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <rdzenie>?</rdzenie>
+                </dane>
+                <cena waluta="?">?</cena>
+            </procesor>
+
+            <procesor idProduktu="?" przeznaczenie="?">
+                <model>Intel Core I20</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <rdzenie>?</rdzenie>
+                </dane>
+                <cena waluta="?">?</cena>
+            </procesor>
+
+            <procesor idProduktu="?" przeznaczenie="?">
+                <model>Intel Pentium 100k</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <rdzenie>?</rdzenie>
+                </dane>
+                <cena waluta="?">?</cena>
+            </procesor>
+
+            <procesor idProduktu="?" przeznaczenie="?">
+                <model>AMD ULTRA 2</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <rdzenie>?</rdzenie>
+                </dane>
+                <cena waluta="?">?</cena>
+            </procesor>
+
+            <procesor idProduktu="?" przeznaczenie="?">
+                <model>KAT X001</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <rdzenie>?</rdzenie>
+                </dane>
+                <cena waluta="?">?</cena>
+            </procesor>
+        </procesory>
+
+        <ramy>
+            <ram idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </ram>
+
+            <ram idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </ram>
+
+            <ram idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </ram>
+
+            <ram idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </ram>
+
+            <ram idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </ram>
+
+            <ram idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </ram>
+        </ramy>
+
+        <romy>
+            <rom idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </rom>
+
+            <rom idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </rom>
+
+            <rom idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </rom>
+
+            <rom idProduktu="?" przeznaczenie="?">
+                <model>?</model>
+                <producent>?</producent>
+                <dane>
+                    <czestotliwosc rodzaj="?">?</czestotliwosc>
+                    <pamiec>?</pamiec>
+                </dane>
+                <cena waluta="?">?</cena>
+            </rom>
+        </romy>
+
+    </produkty>
+
+</sklep>
