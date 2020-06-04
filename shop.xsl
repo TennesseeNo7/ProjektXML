@@ -29,7 +29,7 @@
                         <h3 class="product-name">Procesory</h3>
                         <div class="container-add">
                             <button class="button-add" id="add-processor">
-                                <img src="https://img.icons8.com/cute-clipart/64/000000/add.png"/>
+                                <img src="add.png" width="20%" height="20%"/>
                             </button>
                         </div>
                         <div class="products" id="processors">
@@ -40,7 +40,7 @@
                         <h3 class="product-name">Pamięci RAM</h3>
                         <div class="container-add">
                             <button class="button-add" id="add-ram">
-                                <img src="https://img.icons8.com/cute-clipart/64/000000/add.png"/>
+                                <img src="add.png" width="20%" height="20%"/>
                             </button>
                         </div>
                         <div class="products" id="roms">
@@ -50,8 +50,8 @@
                         </div>
                         <h3 class="product-name">Pamięci ROM</h3>
                         <div class="container-add">
-                            <button class="button-add" id="add-rom  ">
-                                <img src="https://img.icons8.com/cute-clipart/64/000000/add.png"/>
+                            <button class="button-add" id="add-rom">
+                                <img src="add.png" width="20%" height="20%"/>
                             </button>
                         </div>
                         <div class="products" id="rams">
@@ -84,8 +84,8 @@
                 cena: <p class="value-base"><xsl:value-of select="./cena"/><xsl:value-of select="./cena/@waluta"/></p>
             </div>
             <div class="container-buttons">
-                <p><button class="button-product button-edit"><img src="https://img.icons8.com/fluent/48/000000/edit.png"/></button></p>
-                <p><button class="button-product button-delete"><img src="https://img.icons8.com/fluent/48/000000/delete-sign.png"/></button></p>
+                <p><button class="button-product button-edit"><img src="edit.png" width="20%" height="20%"/></button></p>
+                <p><button class="button-product button-delete"><img src="remove.png" width="20%" height="20%"/></button></p>
             </div>
         </div>
     </xsl:template>
@@ -104,8 +104,8 @@
                 cena: <p class="value-base"><xsl:value-of select="./cena"/><xsl:value-of select="./cena/@waluta"/></p>
             </div>
             <div class="container-buttons">
-                <p><button class="button-product button-edit"><img src="https://img.icons8.com/fluent/48/000000/edit.png"/></button></p>
-                <p><button class="button-product button-delete"><img src="https://img.icons8.com/fluent/48/000000/delete-sign.png"/></button></p>
+                <p><button class="button-product button-edit" width="20%" height="20%"><img src="edit.png"/></button></p>
+                <p><button class="button-product button-delete" width="20%" height="20%"><img src="remove.png"/></button></p>
             </div>
         </div>
     </xsl:template>
@@ -124,8 +124,8 @@
                 cena: <p class="value-base"><xsl:value-of select="./cena"/><xsl:value-of select="./cena/@waluta"/></p>
             </div>
             <div class="container-buttons">
-                <p><button class="button-product button-edit"><img src="https://img.icons8.com/fluent/48/000000/edit.png"/></button></p>
-                <p><button class="button-product button-delete"><img src="https://img.icons8.com/fluent/48/000000/delete-sign.png"/></button></p>
+                <p><button class="button-product button-edit" width="20%" height="20%"><img src="edit.png"/></button></p>
+                <p><button class="button-product button-delete" width="20%" height="20%"><img src="remove.png"/></button></p>
             </div>
         </div>
     </xsl:template>
