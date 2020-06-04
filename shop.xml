@@ -4,178 +4,178 @@
     <produkty>
 
         <procesory>
-            <procesor idProduktu="?" przeznaczenie="?">
+            <procesor idProduktu="p01" przeznaczenie="PC">
                 <model>Radeon M3K0 v</model>
-                <producent>?</producent>
+                <producent>Radeon C.O.</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <rdzenie>?</rdzenie>
+                    <czestotliwosc jednostka="GHz">3</czestotliwosc>
+                    <rdzenie>4</rdzenie>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">900</cena>
             </procesor>
 
-            <procesor idProduktu="?" przeznaczenie="?">
+            <procesor idProduktu="p02" przeznaczenie="PC">
                 <model>Radeon M3K0 n</model>
-                <producent>?</producent>
+                <producent>Radeon C.O.</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <rdzenie>?</rdzenie>
+                    <czestotliwosc jednostka="PC">3.8</czestotliwosc>
+                    <rdzenie>4</rdzenie>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">1200</cena>
             </procesor>
 
-            <procesor idProduktu="?" przeznaczenie="?">
+            <procesor idProduktu="p03" przeznaczenie="PC">
                 <model>Radeon M12 y6</model>
-                <producent>?</producent>
+                <producent>Radeon C.O.</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <rdzenie>?</rdzenie>
+                    <czestotliwosc jednostka="GHz">4</czestotliwosc>
+                    <rdzenie>6</rdzenie>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">2200</cena>
             </procesor>
 
-            <procesor idProduktu="?" przeznaczenie="?">
+            <procesor idProduktu="p04" przeznaczenie="PC">
                 <model>Intel Core I20</model>
-                <producent>?</producent>
+                <producent>Intel</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <rdzenie>?</rdzenie>
+                    <czestotliwosc jednostka="GHz">4</czestotliwosc>
+                    <rdzenie>4</rdzenie>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">1500</cena>
             </procesor>
 
-            <procesor idProduktu="?" przeznaczenie="?">
+            <procesor idProduktu="p05" przeznaczenie="Laptop">
                 <model>Intel Pentium 100k</model>
-                <producent>?</producent>
+                <producent>Intel</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <rdzenie>?</rdzenie>
+                    <czestotliwosc jednostka="GHz">2.2</czestotliwosc>
+                    <rdzenie>1</rdzenie>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">550</cena>
             </procesor>
 
-            <procesor idProduktu="?" przeznaczenie="?">
+            <procesor idProduktu="p06" przeznaczenie="Laptop">
                 <model>AMD ULTRA 2</model>
-                <producent>?</producent>
+                <producent>AMD</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <rdzenie>?</rdzenie>
+                    <czestotliwosc jednostka="GHz">4.6</czestotliwosc>
+                    <rdzenie>4</rdzenie>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">1250</cena>
             </procesor>
 
-            <procesor idProduktu="?" przeznaczenie="?">
+            <procesor idProduktu="p07" przeznaczenie="Mobile">
                 <model>KAT X001</model>
-                <producent>?</producent>
+                <producent>KAT C.O.</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <rdzenie>?</rdzenie>
+                    <czestotliwosc jednostka="GHz">2</czestotliwosc>
+                    <rdzenie>2</rdzenie>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="EUR">600</cena>
             </procesor>
         </procesory>
 
         <ramy>
-            <ram idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <ram idProduktu="p08" przeznaczenie="PC">
+                <model>Nevada Ram 300</model>
+                <producent>Nevada Inc.</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="GHz">7</czestotliwosc>
+                    <pamiec jednostkaPam="GB">16</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="USD">240</cena>
             </ram>
 
-            <ram idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <ram idProduktu="p09" przeznaczenie="PC">
+                <model>Nevada Ram 550</model>
+                <producent>Nevada Inc.</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="GHz">9</czestotliwosc>
+                    <pamiec jednostkaPam="TB">4</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="USD">2000</cena>
             </ram>
 
-            <ram idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <ram idProduktu="p10" przeznaczenie="PC">
+                <model>Super Sam a3</model>
+                <producent>ProPro</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="GHz">1.6</czestotliwosc>
+                    <pamiec jednostkaPam="GB">4</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">120</cena>
             </ram>
 
-            <ram idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <ram idProduktu="p11" przeznaczenie="Laptop">
+                <model>Ram delikatesowy luksusowy</model>
+                <producent>PSS Społem</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="GHz">10</czestotliwosc>
+                    <pamiec jednostkaPam="GB">3</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">80</cena>
             </ram>
 
-            <ram idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <ram idProduktu="p12" przeznaczenie="Laptop">
+                <model>Pam pa ram 556</model>
+                <producent>Chinese Rams K.K.</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="GHz">1.1</czestotliwosc>
+                    <pamiec jednostkaPam="MB">750</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="USD">10</cena>
             </ram>
 
-            <ram idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <ram idProduktu="p13" przeznaczenie="Mobile">
+                <model>Okinawa 2k</model>
+                <producent>JapTech</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="GHz">4.7</czestotliwosc>
+                    <pamiec jednostkaPam="GB">3</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="USD">60</cena>
             </ram>
         </ramy>
 
         <romy>
-            <rom idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <rom idProduktu="p14" przeznaczenie="PC">
+                <model>Essex 3GP</model>
+                <producent>Essex Technologies</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="MHz">2</czestotliwosc>
+                    <pamiec jednostkaPam="TB">2</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="EUR">800</cena>
             </rom>
 
-            <rom idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <rom idProduktu="p15" przeznaczenie="PC">
+                <model>MaxPro 5</model>
+                <producent>ProLiga</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="MHz">3</czestotliwosc>
+                    <pamiec jednostkaPam="GB">800</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">400</cena>
             </rom>
 
-            <rom idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <rom idProduktu="p16" przeznaczenie="Laptop">
+                <model>MaxPro AN6</model>
+                <producent>ProLiga</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="Hz">3.7</czestotliwosc>
+                    <pamiec jednostkaPam="GB">900</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="PLN">620</cena>
             </rom>
 
-            <rom idProduktu="?" przeznaczenie="?">
-                <model>?</model>
-                <producent>?</producent>
+            <rom idProduktu="p17" przeznaczenie="Laptop">
+                <model>Norfolk ROM P5</model>
+                <producent>Norfolk Tech C.O.</producent>
                 <dane>
-                    <czestotliwosc rodzaj="?">?</czestotliwosc>
-                    <pamiec>?</pamiec>
+                    <czestotliwosc jednostka="KHz">5.2</czestotliwosc>
+                    <pamiec jednostkaPam="TB">8</pamiec>
                 </dane>
-                <cena waluta="?">?</cena>
+                <cena waluta="USD">1870</cena>
             </rom>
         </romy>
 
