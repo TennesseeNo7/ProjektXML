@@ -19,13 +19,6 @@
                     <h1 id="title">Sklep Komputerowy</h1>
                     <div>
                         <h2 class="section">Produkty</h2>
-                        <div class="search-boxes-wrapper">
-                            <h4>Filtry</h4>
-                            <div class="filtr-pole-tekstowe">producent: <input type="text" id="szukaj-producent" placeholder="Wpisz nazwe producenta" title="szukaj w produktach"/></div>
-                            <div class="filtr-pole-tekstowe">model: <input type="text" id="szukaj-model" placeholder="Wpisz nazwe modelu" title="szukaj w produktach"/></div>
-                            <div class="filtr-pole-tekstowe">cena: <input type="text" id="szukaj-cena" placeholder="Wpisz cene" title="szukaj w produktach"/></div>
-                            <div class="szukaj-button-div"><button type="button" class="szukaj-button" id="wyczysc-filtr-button">Wyczysc</button></div>
-                        </div>
                         <h3 class="product-name">Procesory</h3>
                         <div class="container-add">
                             <button class="button-add" id="add-processor">
@@ -61,9 +54,6 @@
                         </div>
                     </div>
                 </div>
-                <a href="https://icons8.com/icon/FLAhbNWR0src/add">Add icon by Icons8</a>
-                <a href="https://icons8.com/icon/OWRPl8fxkRvG/edit">Edit icon by Icons8</a>
-                <a href="https://icons8.com/icon/OZuepOQd0omj/delete">Delete icon by Icons8</a>
                 <script src="script.js"><br/>
                 </script>
             </body>
@@ -104,8 +94,8 @@
                 cena: <p class="value-base"><xsl:value-of select="./cena"/><xsl:value-of select="./cena/@waluta"/></p>
             </div>
             <div class="container-buttons">
-                <p><button class="button-product button-edit" width="20%" height="20%"><img src="edit.png"/></button></p>
-                <p><button class="button-product button-delete" width="20%" height="20%"><img src="remove.png"/></button></p>
+                <p><button class="button-product button-edit"><img src="edit.png" width="20%" height="20%"/></button></p>
+                <p><button class="button-product button-delete"><img src="remove.png" width="20%" height="20%"/></button></p>
             </div>
         </div>
     </xsl:template>
@@ -124,8 +114,8 @@
                 cena: <p class="value-base"><xsl:value-of select="./cena"/><xsl:value-of select="./cena/@waluta"/></p>
             </div>
             <div class="container-buttons">
-                <p><button class="button-product button-edit" width="20%" height="20%"><img src="edit.png"/></button></p>
-                <p><button class="button-product button-delete" width="20%" height="20%"><img src="remove.png"/></button></p>
+                <p><button class="button-product button-edit"><img src="edit.png" width="20%" height="20%"/></button></p>
+                <p><button class="button-product button-delete"><img src="remove.png" width="20%" height="20%"/></button></p>
             </div>
         </div>
     </xsl:template>
